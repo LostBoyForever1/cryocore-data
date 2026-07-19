@@ -1,0 +1,39 @@
+{
+  "items": [
+    { "name": "Whispering Acorn", "cooldownSeconds": 900 },
+    { "name": "Zombie Disguise", "cooldownSeconds": 120, "secondaryCooldownSeconds": 120, "notes": "Technically has 2 cooldowns, both 120" },
+    { "name": "Baldur's Staff", "cooldownSeconds": 25 },
+    { "name": "Moss Forged Hammer", "cooldownSeconds": 0.4, "notes": "8 ticks" },
+    { "name": "Moon Seed Amulet", "cooldownSeconds": 10, "notes": "Only works during night, crop boost every 10 seconds" },
+    { "name": "Toucans Call", "cooldownSeconds": 20 },
+
+    { "name": "Christmas Wreath", "cooldownSeconds": 60 },
+    { "name": "Candycane Sword", "cooldownSeconds": 5 },
+
+    { "name": "The Jesters Journal", "cooldownSeconds": 300 },
+    { "name": "Enderman Disguise", "cooldownSeconds": 120, "secondaryCooldownSeconds": 120, "notes": "Technically has 2 cooldowns, both 120" },
+    { "name": "Starborn Summoner", "cooldownSeconds": 5 },
+    { "name": "Stellar Spear", "cooldownSeconds": 7 },
+    { "name": "Stellar Axe", "cooldownSeconds": 20 },
+    { "name": "Supernova Scythe", "cooldownSeconds": 5 },
+    { "name": "Celestial Eye", "cooldownSeconds": 60 },
+
+    { "name": "Ember Boots", "cooldownSeconds": 15 },
+    { "name": "Witch Disguise", "cooldownSeconds": 120, "secondaryCooldownSeconds": 120, "notes": "Technically has 2 cooldowns, both 120" },
+    { "name": "Etheral Essence", "cooldownSeconds": 30, "secondaryCooldownSeconds": 30 },
+    { "name": "Wind Spell", "cooldownSeconds": 3 },
+    { "name": "Tome Of Secrets", "cooldownSeconds": 300 },
+    { "name": "Runflare Axe", "cooldownSeconds": 8 },
+    { "name": "Scorchfang", "cooldownSeconds": 12 },
+    { "name": "Arcane Orb", "cooldownSeconds": 30, "enabled": false, "notes": "Cooldown disabled due to a bug" },
+    { "name": "Mage Robe", "cooldownSeconds": 5, "notes": "Ability active for 3 seconds" },
+    { "name": "Mage Boots", "cooldownSeconds": 5 },
+    { "name": "Wizard Dagger", "cooldownSeconds": 0.4, "secondaryCooldownSeconds": 14, "notes": "Main CD 8 ticks, secondary 14s" },
+
+    { "name": "Bee Disguise", "cooldownSeconds": 120, "secondaryCooldownSeconds": 120, "notes": "Technically has 2 cooldowns, both 120" },
+    { "name": "Sun's Kiss", "cooldownSeconds": 25 },
+    { "name": "Nature's Chance", "cooldownSeconds": 15, "notes": "Not a real cooldown - duration each effect lasts before toggling" },
+    { "name": "Bonemeal Block", "cooldownSeconds": 4 },
+    { "name": "Meadow Shears", "cooldownSeconds": 6 }
+  ]
+}
