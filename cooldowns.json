@@ -15,4 +15,21 @@
     { "eiId": "COSMOS_STELLARAXE", "name": "Stellar Axe", "cooldownSeconds": 20, "trigger": "ON_BLOCK_BREAK" },
     { "eiId": "COSMOS_SUPERNOVASCYTHE", "name": "Supernova Scythe", "cooldownSeconds": 5, "trigger": "ON_BLOCK_BREAK" },
     { "eiId": "COSMOS_CELESTIALEYE", "name": "Celestial Eye", "cooldownSeconds": 20, "trigger": "RIGHT_CLICK" },
-    { "eiId": "SORCERY_EMBERBOOTS", "name":
+    { "eiId": "SORCERY_EMBERBOOTS", "name": "Ember Boots", "cooldownSeconds": 15, "trigger": "SNEAK" },
+    { "eiId": "SORCERY_WITCHDISGUISE", "name": "Witch Disguise", "cooldownSeconds": 120, "secondaryCooldownSeconds": 120, "notes": "Technically has 2 cooldowns, both 120" },
+    { "eiId": "SORCERY_ETHERALESSENCE", "name": "Etheral Essence", "cooldownSeconds": 30, "secondaryCooldownSeconds": 30 },
+    { "eiId": "SORCERY_WINDSPELL", "name": "Wind Spell", "cooldownSeconds": 3, "trigger": "RIGHT_CLICK" },
+    { "eiId": "SORCERY_TOMBOFSECRETS", "name": "Tome Of Secrets", "cooldownSeconds": 300, "trigger": "RIGHT_CLICK" },
+    { "eiId": "SORCERY_RUNEFLAREAXE", "name": "Runflare Axe", "cooldownSeconds": 8, "trigger": "RIGHT_CLICK" },
+    { "eiId": "SORCERY_SCORCHFANG", "name": "Scorchfang", "cooldownSeconds": 12, "trigger": "RIGHT_CLICK" },
+    { "eiId": "SORCERY_ARCANEORB", "name": "Arcane Orb", "cooldownSeconds": 30, "enabled": false, "notes": "Cooldown disabled due to a bug" },
+    { "eiId": "SORCERY_MAGEROBE", "name": "Mage Robe", "cooldownSeconds": 5, "notes": "Ability active for 3 seconds" },
+    { "eiId": "SORCERY_MAGEBOOTS", "name": "Mage Boots", "cooldownSeconds": 5 },
+    { "eiId": "SORCERY_WIZARDDAGGER", "name": "Wizard Dagger", "cooldownSeconds": 0.4, "secondaryCooldownSeconds": 14, "notes": "Main CD 8 ticks, secondary 14s" },
+    { "eiId": "SUNFLOWER_BEEDISGUISE", "name": "Bee Disguise", "cooldownSeconds": 120, "secondaryCooldownSeconds": 120, "notes": "Technically has 2 cooldowns, both 120" },
+    { "eiId": "SUNFLOWER_SUNSKISS", "name": "Sun's Kiss", "cooldownSeconds": 25, "trigger": "RIGHT_CLICK" },
+    { "eiId": "SUNFLOWER_NATURESCHANCE", "name": "Nature's Chance", "cooldownSeconds": 15, "notes": "Not a real cooldown - duration each effect lasts before toggling" },
+    { "eiId": "SUNFLOWER_BONEMEALBLOCK", "name": "Bonemeal Block", "cooldownSeconds": 4, "notes": "Trigger detection on hold - placed block, needs block ID or chat message to detect" },
+    { "eiId": "SUNFLOWER_MEADOWSHEARS", "name": "Meadow Shears", "cooldownSeconds": 6, "trigger": "ON_BLOCK_BREAK" }
+  ]
+}
