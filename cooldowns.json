@@ -8,7 +8,7 @@
     { "name": "Toucans Call", "cooldownSeconds": 20 },
     { "name": "Christmas Wreath", "cooldownSeconds": 60 },
     { "name": "Candycane Sword", "cooldownSeconds": 5 },
-    { "eiId": "COSMOS_THEJOKESTERSJOURNAL", "name": "The Jokester's Journal", "cooldownSeconds": 300, "trigger": "RIGHT_CLICK" },
+    { "eiId": "COSMOS_THEJOKESTERSJOURNAL", "name": "The Jokester's Journal", "cooldownSeconds": 500, "trigger": "RIGHT_CLICK" },
     { "eiId": "COSMOS_ENDERMANDISGUISE", "name": "Enderman Disguise", "cooldownSeconds": 120, "secondaryCooldownSeconds": 120, "notes": "Technically has 2 cooldowns, both 120" },
     { "eiId": "COSMOS_STARBORNSUMMONER", "name": "Starborn Summoner", "cooldownSeconds": 5 },
     { "eiId": "COSMOS_STELLARSPEAR", "name": "Stellar Spear", "cooldownSeconds": 7, "trigger": "ON_ATTACK_ENTITY" },
