@@ -10,7 +10,7 @@
     { "name": "Christmas Wreath", "cooldownSeconds": 60 },
     { "name": "Candycane Sword", "cooldownSeconds": 5 },
 
-    { "name": "The Jesters Journal", "cooldownSeconds": 300 },
+    { "name": "The Jokester's Journal", "cooldownSeconds": 300 },
     { "name": "Enderman Disguise", "cooldownSeconds": 120, "secondaryCooldownSeconds": 120, "notes": "Technically has 2 cooldowns, both 120" },
     { "name": "Starborn Summoner", "cooldownSeconds": 5 },
     { "name": "Stellar Spear", "cooldownSeconds": 7 },
