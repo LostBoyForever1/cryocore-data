@@ -6,32 +6,13 @@
     { "name": "Moss Forged Hammer", "cooldownSeconds": 0.4, "notes": "8 ticks" },
     { "name": "Moon Seed Amulet", "cooldownSeconds": 10, "notes": "Only works during night, crop boost every 10 seconds" },
     { "name": "Toucans Call", "cooldownSeconds": 20 },
-
     { "name": "Christmas Wreath", "cooldownSeconds": 60 },
     { "name": "Candycane Sword", "cooldownSeconds": 5 },
-
-    { "eiId": "COSMOS_THEJOKESTERSJOURNAL", "name": "The Jokester's Journal", "cooldownSeconds": 300 },
+    { "eiId": "COSMOS_THEJOKESTERSJOURNAL", "name": "The Jokester's Journal", "cooldownSeconds": 300, "trigger": "RIGHT_CLICK" },
     { "eiId": "COSMOS_ENDERMANDISGUISE", "name": "Enderman Disguise", "cooldownSeconds": 120, "secondaryCooldownSeconds": 120, "notes": "Technically has 2 cooldowns, both 120" },
     { "eiId": "COSMOS_STARBORNSUMMONER", "name": "Starborn Summoner", "cooldownSeconds": 5 },
-    { "eiId": "COSMOS_STELLARSPEAR", "name": "Stellar Spear", "cooldownSeconds": 7 },
-    { "eiId": "COSMOS_STELLARAXE", "name": "Stellar Axe", "cooldownSeconds": 20 },
-    { "eiId": "COSMOS_SUPERNOVASCYTHE", "name": "Supernova Scythe", "cooldownSeconds": 5 },
-    { "eiId": "COSMOS_CELESTIALEYE", "name": "Celestial Eye", "cooldownSeconds": 20 },
-    { "eiId": "SORCERY_EMBERBOOTS", "name": "Ember Boots", "cooldownSeconds": 15 },
-    { "eiId": "SORCERY_WITCHDISGUISE", "name": "Witch Disguise", "cooldownSeconds": 120, "secondaryCooldownSeconds": 120, "notes": "Technically has 2 cooldowns, both 120" },
-    { "eiId": "SORCERY_ETHERALESSENCE", "name": "Etheral Essence", "cooldownSeconds": 30, "secondaryCooldownSeconds": 30 },
-    { "eiId": "SORCERY_WINDSPELL", "name": "Wind Spell", "cooldownSeconds": 3 },
-    { "eiId": "SORCERY_TOMBOFSECRETS", "name": "Tome Of Secrets", "cooldownSeconds": 300 },
-    { "eiId": "SORCERY_RUNEFLAREAXE", "name": "Runflare Axe", "cooldownSeconds": 8 },
-    { "eiId": "SORCERY_SCORCHFANG", "name": "Scorchfang", "cooldownSeconds": 12 },
-    { "eiId": "SORCERY_ARCANEORB", "name": "Arcane Orb", "cooldownSeconds": 30, "enabled": false, "notes": "Cooldown disabled due to a bug" },
-    { "eiId": "SORCERY_MAGEROBE", "name": "Mage Robe", "cooldownSeconds": 5, "notes": "Ability active for 3 seconds" },
-    { "eiId": "SORCERY_MAGEBOOTS", "name": "Mage Boots", "cooldownSeconds": 5 },
-    { "eiId": "SORCERY_WIZARDDAGGER", "name": "Wizard Dagger", "cooldownSeconds": 0.4, "secondaryCooldownSeconds": 14, "notes": "Main CD 8 ticks, secondary 14s" },
-    { "eiId": "SUNFLOWER_BEEDISGUISE", "name": "Bee Disguise", "cooldownSeconds": 120, "secondaryCooldownSeconds": 120, "notes": "Technically has 2 cooldowns, both 120" },
-    { "eiId": "SUNFLOWER_SUNSKISS", "name": "Sun's Kiss", "cooldownSeconds": 25 },
-    { "eiId": "SUNFLOWER_NATURESCHANCE", "name": "Nature's Chance", "cooldownSeconds": 15, "notes": "Not a real cooldown - duration each effect lasts before toggling" },
-    { "eiId": "SUNFLOWER_BONEMEALBLOCK", "name": "Bonemeal Block", "cooldownSeconds": 4 },
-    { "eiId": "SUNFLOWER_MEADOWSHEARS", "name": "Meadow Shears", "cooldownSeconds": 6 }
-  ]
-}
+    { "eiId": "COSMOS_STELLARSPEAR", "name": "Stellar Spear", "cooldownSeconds": 7, "trigger": "ON_ATTACK_ENTITY" },
+    { "eiId": "COSMOS_STELLARAXE", "name": "Stellar Axe", "cooldownSeconds": 20, "trigger": "ON_BLOCK_BREAK" },
+    { "eiId": "COSMOS_SUPERNOVASCYTHE", "name": "Supernova Scythe", "cooldownSeconds": 5, "trigger": "ON_BLOCK_BREAK" },
+    { "eiId": "COSMOS_CELESTIALEYE", "name": "Celestial Eye", "cooldownSeconds": 20, "trigger": "RIGHT_CLICK" },
+    { "eiId": "SORCERY_EMBERBOOTS", "name":
