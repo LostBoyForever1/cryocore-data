@@ -35,6 +35,6 @@
     { "eiId": "NEXUS_STARFORGESHOVELI", "name": "Starforge Shovel", "cooldownSeconds": 20, "trigger": "ON_BLOCK_BREAK" },
     { "eiId": "NEXUS_STARFORGESHOVELII", "name": "Starforge Shovel", "cooldownSeconds": 20, "trigger": "ON_BLOCK_BREAK" },
     { "eiId": "NEXUS_STARFORGESHOVELIII", "name": "Starforge Shovel", "cooldownSeconds": 15, "trigger": "ON_BLOCK_BREAK" },
-    { "eiId": "CRYO_CRYOSPEAR", "name": "Starforge Shovel", "cooldownSeconds": 18, "trigger": "SNEAK_RIGHT_CLICK" }
+    { "eiId": "CRYO_CRYOSPEAR", "name": "Cryo Spear", "cooldownSeconds": 18, "trigger": "SNEAK_RIGHT_CLICK" }
   ]
 }
