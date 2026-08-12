@@ -1,10 +1,10 @@
 {
-  "version": 1,
+  "version": 2,
   "items": [
     {
       "eiId": "",
       "name": "Whispering Acorn",
-      "cooldownSeconds": 900,
+      "cooldownSeconds": 500,
       "notes": "Crate: Fantasy"
     },
     {
@@ -146,7 +146,7 @@
     {
       "eiId": "SORCERY_ARCANEORB",
       "name": "Arcane Orb",
-      "cooldownSeconds": 30,
+      "cooldownSeconds": 10,
       "enabled": false,
       "notes": "Crate: Sorcery | Cooldown disabled due to a bug"
     },
