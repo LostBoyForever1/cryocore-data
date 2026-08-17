@@ -164,8 +164,8 @@
     {
       "eiId": "SORCERY_WIZARDDAGGER",
       "name": "Wizard Dagger",
-      "cooldownSeconds": 0.4,
-      "secondaryCooldownSeconds": 14,
+      "cooldownSeconds": 14,
+      "trigger": "SNEAK_LEFT_CLICK",
       "notes": "Crate: Sorcery | Main CD 8 ticks, secondary 14s"
     },
 
