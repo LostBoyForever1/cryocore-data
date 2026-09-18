@@ -1,252 +1,46 @@
 {
   "version": "1.0.0",
   "items": [
-    {
-      "eiId": "",
-      "name": "Whispering Acorn",
-      "cooldownSeconds": 500,
-      "notes": "Crate: Fantasy"
-    },
-    {
-      "eiId": "",
-      "name": "Zombie Disguise",
-      "cooldownSeconds": 120,
-      "secondaryCooldownSeconds": 120,
-      "notes": "Crate: Fantasy | Technically has 2 cooldowns, both 120"
-    },
-    {
-      "eiId": "",
-      "name": "Baldur's Staff",
-      "cooldownSeconds": 25,
-      "notes": "Crate: Fantasy"
-    },
-    {
-      "eiId": "",
-      "name": "Moss Forged Hammer",
-      "cooldownSeconds": 0.4,
-      "notes": "Crate: Fantasy | 8 ticks"
-    },
-    {
-      "eiId": "",
-      "name": "Moon Seed Amulet",
-      "cooldownSeconds": 10,
-      "notes": "Crate: Fantasy | Only works during night, crop boost every 10 seconds"
-    },
-    {
-      "eiId": "",
-      "name": "Toucans Call",
-      "cooldownSeconds": 20,
-      "notes": "Crate: Fantasy"
-    },
+    {"trigger":"RIGHT_CLICK", "eiId":"WhisperingAcorn", "ms":500000},
+    {"trigger":"RIGHT_CLICK", "eiId":"BaldursStaff", "ms":25000},
+    {"trigger":"RIGHT_CLICK", "eiId":"ToucansCall", "ms":20000},
+    
+    {"trigger":"RIGHT_CLICK", "eiId":"ChristmasWreath", "ms":60000},
+    {"trigger":"RIGHT_CLICK", "eiId":"CandycaneSword", "ms":5000},
 
-    {
-      "eiId": "",
-      "name": "Christmas Wreath",
-      "cooldownSeconds": 60,
-      "notes": "Crate: Christmas"
-    },
-    {
-      "eiId": "",
-      "name": "Candycane Sword",
-      "cooldownSeconds": 5,
-      "notes": "Crate: Christmas"
-    },
+    {"trigger":"RIGHT_CLICK", "eiId":"COSMOS_THEJOKESTERSJOURNAL", "ms":300000},
+    {"trigger":"", "eiId":"COSMOS_ENDERMANDISGUISE", "ms":120000},
+    {"trigger":"", "eiId":"COSMOS_STARBORNSUMMONER", "ms":5000},
+    {"trigger":"ON_BLOCK_BREAK", "eiId":"COSMOS_STELLARAXE", "ms":20000},
+    {"trigger":"ON_BLOCK_BREAK", "eiId":"COSMOS_SUPERNOVASCYTHE", "ms":5000},
+    {"trigger":"RIGHT_CLICK","eiId":"COSMOS_CELESTIALEYE","ms":18000,"tags":"AllowCrouch"},
 
-    {
-      "eiId": "COSMOS_THEJOKESTERSJOURNAL",
-      "name": "The Jokester's Journal",
-      "cooldownSeconds": 300,
-      "trigger": "RIGHT_CLICK",
-      "notes": "Crate: Cosmos"
-    },
-    {
-      "eiId": "COSMOS_ENDERMANDISGUISE",
-      "name": "Enderman Disguise",
-      "cooldownSeconds": 120,
-      "secondaryCooldownSeconds": 120,
-      "notes": "Crate: Cosmos | Technically has 2 cooldowns, both 120"
-    },
-    {
-      "eiId": "COSMOS_STARBORNSUMMONER",
-      "name": "Starborn Summoner",
-      "cooldownSeconds": 5,
-      "notes": "Crate: Cosmos"
-    },
-    {
-      "eiId": "COSMOS_STELLARAXE",
-      "name": "Stellar Axe",
-      "cooldownSeconds": 20,
-      "trigger": "ON_BLOCK_BREAK",
-      "notes": "Crate: Cosmos"
-    },
-    {
-      "eiId": "COSMOS_SUPERNOVASCYTHE",
-      "name": "Supernova Scythe",
-      "cooldownSeconds": 5,
-      "trigger": "ON_BLOCK_BREAK",
-      "notes": "Crate: Cosmos"
-    },
-    {
-      "eiId": "COSMOS_CELESTIALEYE",
-      "name": "Celestial Eye",
-      "cooldownSeconds": 18,
-      "trigger": "RIGHT_CLICK",
-      "notes": "Crate: Cosmos"
-    },
+    {"trigger":"SNEAK", "eiId":"SORCERY_EMBERBOOTS", "ms":15000},
+    {"trigger":"", "eiId":"SORCERY_WITCHDISGUISE", "ms":120000},
+    {"trigger":"", "eiId":"SORCERY_ETHERALESSENCE", "ms":30000},
+    {"trigger":"RIGHT_CLICK", "eiId":"SORCERY_WINDSPELL", "ms":3000},
+    {"trigger":"RIGHT_CLICK", "eiId":"SORCERY_TOMBOFSECRETS", "ms":300000},
+    {"trigger":"RIGHT_CLICK", "eiId":"SORCERY_RUNEFLAREAXE", "ms":8000},
+    {"trigger":"RIGHT_CLICK", "eiId":"SORCERY_SCORCHFANG", "ms":12000},
+    {"trigger":"", "eiId":"SORCERY_ARCANEORB", "ms":10000},
+    {"trigger":"", "eiId":"SORCERY_MAGEROBE", "ms":5000},
+    {"trigger":"", "eiId":"SORCERY_MAGEBOOTS", "ms":5000},
+    {"trigger":"SNEAK_LEFT_CLICK", "eiId":"SORCERY_WIZARDDAGGER", "ms":14000},
 
-    {
-      "eiId": "SORCERY_EMBERBOOTS",
-      "name": "Ember Boots",
-      "cooldownSeconds": 15,
-      "trigger": "SNEAK",
-      "notes": "Crate: Sorcery"
-    },
-    {
-      "eiId": "SORCERY_WITCHDISGUISE",
-      "name": "Witch Disguise",
-      "cooldownSeconds": 120,
-      "secondaryCooldownSeconds": 120,
-      "notes": "Crate: Sorcery | Technically has 2 cooldowns, both 120"
-    },
-    {
-      "eiId": "SORCERY_ETHERALESSENCE",
-      "name": "Etheral Essence",
-      "cooldownSeconds": 30,
-      "secondaryCooldownSeconds": 30,
-      "notes": "Crate: Sorcery"
-    },
-    {
-      "eiId": "SORCERY_WINDSPELL",
-      "name": "Wind Spell",
-      "cooldownSeconds": 3,
-      "trigger": "RIGHT_CLICK",
-      "notes": "Crate: Sorcery"
-    },
-    {
-      "eiId": "SORCERY_TOMBOFSECRETS",
-      "name": "Tome Of Secrets",
-      "cooldownSeconds": 300,
-      "trigger": "RIGHT_CLICK",
-      "notes": "Crate: Sorcery"
-    },
-    {
-      "eiId": "SORCERY_RUNEFLAREAXE",
-      "name": "Runflare Axe",
-      "cooldownSeconds": 8,
-      "trigger": "RIGHT_CLICK",
-      "notes": "Crate: Sorcery"
-    },
-    {
-      "eiId": "SORCERY_SCORCHFANG",
-      "name": "Scorchfang",
-      "cooldownSeconds": 12,
-      "trigger": "RIGHT_CLICK",
-      "notes": "Crate: Sorcery"
-    },
-    {
-      "eiId": "SORCERY_ARCANEORB",
-      "name": "Arcane Orb",
-      "cooldownSeconds": 10,
-      "enabled": false,
-      "notes": "Crate: Sorcery | Cooldown disabled due to a bug"
-    },
-    {
-      "eiId": "SORCERY_MAGEROBE",
-      "name": "Mage Robe",
-      "cooldownSeconds": 5,
-      "notes": "Crate: Sorcery | Ability active for 3 seconds"
-    },
-    {
-      "eiId": "SORCERY_MAGEBOOTS",
-      "name": "Mage Boots",
-      "cooldownSeconds": 5,
-      "notes": "Crate: Sorcery"
-    },
-    {
-      "eiId": "SORCERY_WIZARDDAGGER",
-      "name": "Wizard Dagger",
-      "cooldownSeconds": 14,
-      "trigger": "SNEAK_LEFT_CLICK",
-      "notes": "Crate: Sorcery | Main CD 8 ticks, secondary 14s"
-    },
+    {"trigger":"", "eiId":"SUNFLOWER_BEEDISGUISE", "ms":120000},
+    {"trigger":"RIGHT_CLICK", "eiId":"SUNFLOWER_SUNSKISS", "ms":25000},
+    {"trigger":"", "eiId":"SUNFLOWER_BONEMEALBLOCK", "ms":4000},
+    {"trigger":"ON_BLOCK_BREAK", "eiId":"SUNFLOWER_MEADOWSHEARS", "ms":6000},
 
-    {
-      "eiId": "SUNFLOWER_BEEDISGUISE",
-      "name": "Bee Disguise",
-      "cooldownSeconds": 120,
-      "secondaryCooldownSeconds": 120,
-      "notes": "Crate: Sunflower | Technically has 2 cooldowns, both 120"
-    },
-    {
-      "eiId": "SUNFLOWER_SUNSKISS",
-      "name": "Sun's Kiss",
-      "cooldownSeconds": 25,
-      "trigger": "RIGHT_CLICK",
-      "notes": "Crate: Sunflower"
-    },
-    {
-      "eiId": "SUNFLOWER_BONEMEALBLOCK",
-      "name": "Bonemeal Block",
-      "cooldownSeconds": 4,
-      "notes": "Crate: Sunflower | Trigger detection on hold - placed block need block ID I think?"
-    },
-    {
-      "eiId": "SUNFLOWER_MEADOWSHEARS",
-      "name": "Meadow Shears",
-      "cooldownSeconds": 6,
-      "trigger": "ON_BLOCK_BREAK",
-      "notes": "Crate: Sunflower"
-    },
+    {"trigger":"RIGHT_CLICK", "eiId":"NEXUS_RIFTPHASE", "ms":5000},
+    {"trigger":"RIGHT_CLICK", "eiId":"NEXUS_NANOCOMPRESSOR", "ms":30000},
+    {"trigger":"RIGHT_CLICK", "eiId":"NEXUS_PULSAREDGE", "ms":3000},
+    {"trigger":"ON_BLOCK_BREAK", "eiId":"NEXUS_STARFORGESHOVELI", "ms":20000,"tags":"AllowCrouch","level":1},
+    {"trigger":"ON_BLOCK_BREAK","eiId":"NEXUS_STARFORGESHOVELII","ms":20000,"tags":"AllowCrouch","level":2},
+    {"trigger":"ON_BLOCK_BREAK", "eiId":"NEXUS_STARFORGESHOVELIII", "ms":15000,"tags":"AllowCrouch","level":3},
 
-    {
-      "eiId": "NEXUS_RIFTPHASE",
-      "name": "Rift Phase",
-      "cooldownSeconds": 5,
-      "trigger": "RIGHT_CLICK",
-      "notes": "Crate: Nexus"
-    },
-    {
-      "eiId": "NEXUS_NANOCOMPRESSOR",
-      "name": "Nano Compressor",
-      "cooldownSeconds": 30,
-      "trigger": "RIGHT_CLICK",
-      "notes": "Crate: Nexus"
-    },
-    {
-      "eiId": "NEXUS_PULSAREDGE",
-      "name": "Pulsar Edge",
-      "cooldownSeconds": 3,
-      "trigger": "RIGHT_CLICK",
-      "notes": "Crate: Nexus"
-    },
-    {
-      "eiId": "NEXUS_STARFORGESHOVELI",
-      "name": "Starforge Shovel-lvl 1",
-      "cooldownSeconds": 20,
-      "trigger": "ON_BLOCK_BREAK",
-      "notes": "Crate: Nexus"
-    },
-    {
-      "eiId": "NEXUS_STARFORGESHOVELII",
-      "name": "Starforge Shovel-lvl 2",
-      "cooldownSeconds": 20,
-      "trigger": "ON_BLOCK_BREAK",
-      "notes": "Crate: Nexus"
-    },
-    {
-      "eiId": "NEXUS_STARFORGESHOVELIII",
-      "name": "Starforge Shovel-lvl 3",
-      "cooldownSeconds": 15,
-      "trigger": "ON_BLOCK_BREAK",
-      "notes": "Crate: Nexus"
-    },
+    {"trigger":"RIGHT_CLICK","eiId":"COMMUNITY_DEMMIEFLOWERCHARM","ms":16000,"tags":"AllowCrouch"}
 
-    {
-      "eiId": "CRYO_CRYOSPEAR",
-      "name": "Cryo Spear",
-      "cooldownSeconds": 18,
-      "trigger": "SNEAK_RIGHT_CLICK",
-      "notes": "Crate: Cryo Crate"
-    }
+    {"trigger":"SNEAK_RIGHT_CLICK", "eiId":"CRYO_CRYOSPEAR", "ms":18000}
   ]
 }
