@@ -39,8 +39,7 @@
     {"trigger":"ON_BLOCK_BREAK","eiId":"NEXUS_STARFORGESHOVELII","ms":20000,"tags":"AllowCrouch","level":2},
     {"trigger":"ON_BLOCK_BREAK", "eiId":"NEXUS_STARFORGESHOVELIII", "ms":15000,"tags":"AllowCrouch","level":3},
 
-    {"trigger":"RIGHT_CLICK","eiId":"COMMUNITY_DEMMIEFLOWERCHARM","ms":16000,"tags":"AllowCrouch"}
-
+    {"trigger":"RIGHT_CLICK","eiId":"COMMUNITY_DEMMIEFLOWERCHARM","ms":16000,"tags":"AllowCrouch"},
     {"trigger":"SNEAK_RIGHT_CLICK", "eiId":"CRYO_CRYOSPEAR", "ms":18000}
   ]
 }
