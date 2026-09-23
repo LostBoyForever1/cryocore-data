@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "items": [
     {"trigger":"RIGHT_CLICK", "eiId":"WhisperingAcorn", "ms":500000},
     {"trigger":"RIGHT_CLICK", "eiId":"BaldursStaff", "ms":25000},
@@ -13,23 +13,17 @@
     {"trigger":"", "eiId":"COSMOS_STARBORNSUMMONER", "ms":5000},
     {"trigger":"ON_BLOCK_BREAK", "eiId":"COSMOS_STELLARAXE", "ms":20000},
     {"trigger":"ON_BLOCK_BREAK", "eiId":"COSMOS_SUPERNOVASCYTHE", "ms":5000},
-    {"trigger":"RIGHT_CLICK","eiId":"COSMOS_CELESTIALEYE","ms":18000,"tags":"AllowCrouch"},
+    {"trigger":"RIGHT_CLICK","eiId":"COSMOS_CELESTIALEYE","ms":18000,"tags":"AllowCrouch,ResourceOnly"},
 
     {"trigger":"SNEAK", "eiId":"SORCERY_EMBERBOOTS", "ms":15000},
-    {"trigger":"", "eiId":"SORCERY_WITCHDISGUISE", "ms":120000},
-    {"trigger":"", "eiId":"SORCERY_ETHERALESSENCE", "ms":30000},
     {"trigger":"RIGHT_CLICK", "eiId":"SORCERY_WINDSPELL", "ms":3000},
     {"trigger":"RIGHT_CLICK", "eiId":"SORCERY_TOMBOFSECRETS", "ms":300000},
     {"trigger":"RIGHT_CLICK", "eiId":"SORCERY_RUNEFLAREAXE", "ms":8000},
     {"trigger":"RIGHT_CLICK", "eiId":"SORCERY_SCORCHFANG", "ms":12000},
-    {"trigger":"", "eiId":"SORCERY_ARCANEORB", "ms":10000},
-    {"trigger":"", "eiId":"SORCERY_MAGEROBE", "ms":5000},
-    {"trigger":"", "eiId":"SORCERY_MAGEBOOTS", "ms":5000},
+    {"trigger":"SNEAK_RIGHT_CLICK", "eiId":"SORCERY_ARCANEORB", "ms":10000},
     {"trigger":"SNEAK_LEFT_CLICK", "eiId":"SORCERY_WIZARDDAGGER", "ms":14000},
 
-    {"trigger":"", "eiId":"SUNFLOWER_BEEDISGUISE", "ms":120000},
     {"trigger":"RIGHT_CLICK", "eiId":"SUNFLOWER_SUNSKISS", "ms":25000},
-    {"trigger":"", "eiId":"SUNFLOWER_BONEMEALBLOCK", "ms":4000},
     {"trigger":"ON_BLOCK_BREAK", "eiId":"SUNFLOWER_MEADOWSHEARS", "ms":6000},
 
     {"trigger":"RIGHT_CLICK", "eiId":"NEXUS_RIFTPHASE", "ms":5000},
